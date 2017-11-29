@@ -8,15 +8,115 @@
 </head>
 
 <body>
-    <p>
-        Make sure your pet has plenty of
-        <i>
-            <b>fresh water</b>
-        </i>
-        during hot weather.
-        <br>
-        <img src="cat.jpg" alt="cat">
-    </p>
+    <header>
+        <h1>How to take care of cats</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Tip for hot weather</h2>
+            <p>Make sure your pet has plenty of
+                <i>
+                    <b>fresh water</b>
+                </i> during hot weather.
+                <br>
+                <img src="cat.jpg" alt="Grumpy Cat">
+            </p>
+        </article>
+
+        <article>
+            <h2>How to feed your cat</h2>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th colspan="4">Feeding</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <th>Meal</th>
+                        <th>Time</th>
+                        <th rowspan="5">Schedule</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Breakfast</td>
+                        <td>8:00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Lunch</td>
+                        <td>12:00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Dinner</td>
+                        <td>18:00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Night</td>
+                        <td>21:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article>
+            <h2>Favourite meals</h2>
+            <ul type="square">
+                <li>Milk</li>
+                <li>Meat</li>
+                <li>Eggs</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Favourite places</h2>
+            <ol type="I" start="10" reversed>
+                <li>Sofa</li>
+                <li>Bed</li>
+                <li>Tabke</li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Contact us</h2>
+            <form method="POST" action="https://formspree.io/oleh.petryk@gmail.com">
+                <label for="client-name">Client name:</label>
+                <input id="client-name" type="text" name="client-name" required>
+                <br>
+                <label for="client-email">Client email:</label>
+                <input id="client-email" type="email" name="client-email" required>
+                <br>
+                <label for="car-plate">Car plate number:</label>
+                <input id="car-plate" type="text" name="car-plate" required pattern="[A-Z]{2}[\d]{4}[A-Z]{2}" placeholder="XX000XX" title="XX000XX">
+                <br>
+                <label>
+                    Coments:
+                    <textarea name="coments"></textarea>
+                </label>
+                <br>
+                <p>Your gender</p>
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other">Other
+                </label>
+                <br>
+                <input type="submit" value="Send">
+                <input type="reset">
+            </form>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Copyright Cats</p>
+    </footer>
 </body>
 
 </html>
