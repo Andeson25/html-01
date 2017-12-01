@@ -25,30 +25,37 @@
             <fieldset>
                 <legend>Особисті данні</legend>
                 <ol>
-                    <li>Ім'я:</li>
-                    <label>
-                        <input type="text" name="first_name" placeholder="Ім'я">
-                        <input type="text" name="second_name " placeholder="Фамілія">
-                    </label>
+                    <li>
+                        <label>
+                            Ім'я:
+                            <input type="text" name="first_name" placeholder="Ім'я" required>
+                            <input type="text" name="second_name " placeholder="Фамілія">
+                        </label>
+                    </li>
                     <hr>
-                    <li>Місце проживання:</li>
-                    <label>
-                        <textarea type="text" rows="3" cols="20" name="location" placeholder="Введіть місце..."></textarea>
-                    </label>
-                    <li>Дата народження:</li>
-                    <label>
-                        <input type="date" name="birth" value="year-moth-date" required/>
-                    </label>
+                    <li>
+                        <label>
+                            Місце проживання:
+                            <br>
+                            <textarea type="text" rows="3" cols="20" name="location" placeholder="Введіть місце..." required></textarea>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Дата народження:
+                            <input type="date" name="birth" value="year-moth-date" required/>
+                        </label>
+                    </li>
                     <hr>
                     <li>Стать:
                         <label>
-                            <input type="radio" name="gender" value="male">Чоловік
+                            <input type="radio" name="gender" value="male" required>Чоловік
                         </label>
                         <label>
-                            <input type="radio" name="gender" value="female">Жінка
+                            <input type="radio" name="gender" value="female" required>Жінка
                         </label>
                         <label>
-                            <input type="radio" name="gender" value="other">Інша
+                            <input type="radio" name="gender" value="other" required>Інша
                         </label>
                     </li>
                 </ol>
