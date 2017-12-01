@@ -8,88 +8,148 @@
 </head>
 
 <body>
-    <nav>
-        <li><a href="form.html">Опитування</a></li>
-        <li><a href="index.html">Машини</a></li>
-    </nav>
-    <header>
-        <h1>Cars</h1>
+    <header id="head">
+        <h1>Автомайстерня "Мотор"</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#services">Послуги</a>
+                </li>
+                <li>
+                    <a href="#reapair">Марки які ми ремонтуємо</a>
+                </li>
+                <li>
+                    <a href="#about">Про нас</a>
+                </li>
+                <li>
+                    <a href="#price">Ціни</a>
+                </li>
+                <li>
+                    <a href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    
-
     <main>
-        <article>
-            <h2>Tip for hot weather</h2>
-            <p>Make sure your pet has plenty of
-                <i>
-                    <b>fresh water</b>
-                </i> during hot weather.
-                <br>
-                <img src="cat.jpg" alt="Grumpy Cat">
-            </p>
-        </article>
+        <section id="services">
+            <H2>Ми пропонуємо такі послуги:</H2>
+            <ul>
+                <li>Робота з шинами:
+                    <ul>
+                        <li>Заміна шин</li>
+                        <li>Ремонт дир</li>
+                        <li>Вулканізація шин</li>
+                    </ul>
+                    <li>Робота з кузовом:
+                        <ul>
+                            <li>Ремонт царапин</li>
+                            <li>Ремонт вмятин</li>
+                            <li>Фарбування кузова</li>
+                        </ul>
+                    </li>
+                    <li>Робота з мотором:
+                        <ul>
+                            <li>Заміна масла</li>
+                            <li>Заміна ременів</li>
+                        </ul>
+                    </li>
+                    <li>Тех огляд</li>
 
-        <article>
-            <h2>How to feed your cat</h2>
+            </ul>
+        </section>
+        <section id="repair">
+            <h2>Мм займаємося ремонтом таких марок машин</h2>
+            <h2>
+                <ul style="font-weight:bold;">
+                    <li>Ford</li>
+                    <li>Mitsubisi
+                        <li>Chevrolet</li>
+                        <li>Tesla</li>
+                        <li>Toyota</li>
+                    </li>
+                </ul>
+            </h2>
+        </section>
+        <section id="about">
+            <h3>Про нас</h3>
+            <p>
+                Найкраща автомайстерня України
+            </p>
+            <h3>Чому саме ми?</h3>
+            <p>
+                Тому що наші механіки працюють найкраще та за оптимаьну ціну
+            </p>
+        </section>
+        <section id="price">
+            <h2>Ціни на наші послуги</h2>
             <table border="1">
                 <tbody>
                     <tr>
-                        <th colspan="4">Feeding</th>
+                        <th colspan="4">Робота з шинами</th>
+                        <th colspan="4">Робота з кузовом</th>
+                        <th colspan="4">Робота з мотором</th>
+                        <th colspan="4">Тех огляд</th>
                     </tr>
                     <tr>
-                        <td>0</td>
-                        <th>Meal</th>
-                        <th>Time</th>
-                        <th rowspan="5">Schedule</th>
+                        <td colspan="3">Заміна шин</td>
+                        <td colspan="1">200</td>
+                        <td colspan="3">Ремон царапин</td>
+                        <td colspan="1">50</td>
+                        <td colspan="3">Заміна масла</td>
+                        <td colspan="1">30</td>
+                        <td style="text-align:center">900</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>Breakfast</td>
-                        <td>8:00</td>
+                        <td colspan="3">Ремонт дир</td>
+                        <td colspan="1">100</td>
+                        <td colspan="3">Ремон вмятин</td>
+                        <td colspan="1">170</td>
+                        <td colspan="3">Заміна ремнів</td>
+                        <td colspan="1">20</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Lunch</td>
-                        <td>12:00</td>
+                        <td colspan="3">Вулканізація шин</td>
+                        <td colspan="1">300</td>
+                        <td colspan="3">Фарбування кузова</td>
+                        <td colspan="1">400</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+    <footer id="contacts">
+        <h2>Контакти</h2>
+        <section id="addres">
+            <h4>Адреса</h4>
+            <p>Львів, вул. Степана Бандери 90</p>
+        </section>
+        <section id="phone">
+            <h4>Номера телеонів</h4>
+            <ul>
+                <li>+380672519</li>
+                <li>+380632211</li>
+            </ul>
+        </section>
+        <section id="schedule">
+            <table border="1">
+                <tbody>
+                    <tr>
+                    <th>Понеділок-Пятниця</th>
+                    <th>Вихідні</th>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Dinner</td>
-                        <td>18:00</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Night</td>
-                        <td>21:00</td>
+                        <td style="text-align:center">8:00-21:00</td>
+                        <td style="text-align:center">9:00-18:00</td>
                     </tr>
                 </tbody>
             </table>
-        </article>
-
-        <article>
-            <h2>Favourite meals</h2>
-            <ul>
-                <li>Milk</li>
-                <li>Meat</li>
-                <li>Eggs</li>
-            </ul>
-        </article>
-
-        <article>
-            <h2>Favourite places</h2>
-            <ol type="I" start="10" reversed>
-                <li>Sofa</li>
-                <li>Bed</li>
-                <li>Tabke</li>
-            </ol>
-        </article>
-
-        
-
-    </main>
-
-    <footer>
-        <p>Copyright Cats</p>
+        </section>
+        <p>
+            <small>Автомайстерня "Мотор" © 2017 </small>
+        </p>
+        <a href="#head">Вгору</a>
     </footer>
 </body>
 
